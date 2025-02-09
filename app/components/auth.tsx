@@ -165,6 +165,7 @@ function TopBanner() {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      {/*
       <div className={clsx(styles["top-banner-inner"], "no-dark")}>
         <Logo className={styles["top-banner-logo"]}></Logo>
         <span>
@@ -181,6 +182,7 @@ function TopBanner() {
           </a>
         </span>
       </div>
+      */}
       {(isHovered || isMobile) && (
         <Delete className={styles["top-banner-close"]} onClick={handleClose} />
       )}
